@@ -5,6 +5,7 @@ st. set_page_config(layout="wide")
 
 st.sidebar.image("https://cdn.iconscout.com/icon/premium/png-256-thumb/manual-management-4849234-4030927.png", width=100)
 st.sidebar.subheader("InstructPix2Pix:")
+st.sidebar.markdown("###### This is an AI model called InstructPix2Pix. It allows you to "Photoshop with words" - just tell it how you want the image changed")
 st.sidebar.markdown("###### Model for editing images from normal human instructions")
 st.sidebar.markdown("###### Given an input image and a written instruction that tells the model what to do, the model follows these instructions to edit the image")
 st.sidebar.markdown("###### To obtain training data for this, combination of the knowledge of two large pretrained models---a language model (GPT-3) and a text-to-image model (Stable Diffusion)---to generate a large dataset of image editing examples")
